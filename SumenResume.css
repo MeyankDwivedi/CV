@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+.hry
+{
+    border: 6px dotted black;
+    border-bottom: none;
+    width: 5%;
+    margin:40px auto;
+}
+.Icon
+{
+    width: 8%;
+    display: block;
+    margin-top: 2%;
+    border-radius: 50%;
+}
+h4
+{
+    font-family: 'pacifico', cursive;
+}
+.OtherIcons
+{
+    width: 5%;
+    margin: 0% 2%;
+    display: inline-block;
+}
+.firstdivision
+{
+    background-color: #FF9595;
+    position: relative;
+    height: 660px;
+    width: auto;
+    line-height: 2;
+}
+#sun_image
+{
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+#Sumen_Heading
+{
+    margin: auto;
+    color: #342B38;
+    display: block;
+    width: 200px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+#myname
+{
+    width: 300px;
+    margin: auto;
+    color: #342B38;
+    display: block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+#Sumen_Applications
+{
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    opacity: 5%;
+}
+#Designation
+{
+    width: 200px;
+    display: block;
+    color: #342B38;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    text-align: center;
+}
+#Sumen_Mountains
+{
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    opacity: 10%;
+}
+.seconddivision
+{
+    background-color: #342B38;
+    height: 650px;
+    padding: 20px 50px 20px 50px;
+} 
+#introdivision
+{
+    width: 90%;
+    display: block;
+    align-self: center;
+    margin-left: 10%;
+    padding: 1%;
+}
+#introduction
+{
+    width: 80%;
+    color:aliceblue;
+    display: block;
+    margin: 0;
+    line-height: 2;
+}
+#sumenphoto
+{
+    width: 12%;
+    display: block;
+    left: 10%;
+    float: left;
+    margin: 2%;
+}  
+
+#classtenth
+{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 18%;
+    display: block;
+    padding: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    float: left;
+    background-image: url(school.png);
+}
+#classtwelfth
+{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 18%;
+    display: inline-block;
+    padding: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    margin:0% 6%;
+    background-image: url(Highschool.png);
+} 
+#graduation
+{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 18%;
+    display: block;
+    padding: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    float: right;
+    background-image: url(college.png);
+}
+#headingtwo
+{
+    font-family: 'pacifico', cursive;
+    color: #EDD2F3;
+    position: absolute;
+    left: 625px;
+    top: 700px;
+}
+#almamaterphoto
+{
+    size: 110%;
+    position: absolute;
+    top: 710px;
+    left: 100px;
+    opacity: 20%;
+}
+
+.thirddivision
+{
+    background-color: #80BDAB;
+    height: 670px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+#skillsicon
+{
+    margin: 2%;
+}
+#allicons
+{
+    display: block;
+    width: 80%;
+    margin:auto;
+}
+.fourthdivision
+{
+    background-color: #BBF1C8;
+    height: 670px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+#newallicons
+{
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    line-height: 2; 
+}
+#contacticon
+{
+    width: 18%;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    opacity: 10%;
+}
+.fifthdivision
+{
+    background-color:#0A1D37;
+    position: relative;
+    height: 285px;
+    width: auto;
+    color: #EDD2F3;
+}
+#contactheading
+{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 2em;
+}
+.site-footer
+{
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+    font-size: 60%;
+}
+#expdetails
+{
+    line-height: 2;
+    color: #342B38;
+}
