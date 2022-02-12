@@ -28,14 +28,13 @@ h4
 .firstdivision
 {
     background-color: #FF9595;
-    position: relative;
     height: 660px;
     width: auto;
     line-height: 2;
 }
 #sun_image
 {
-    height: 30%;
+    width: 10%;
     display: block;
     margin: auto;
 }
@@ -87,8 +86,9 @@ h4
 .seconddivision
 {
     background-color: #342B38;
-    height: 650px;
+    height: auto;
     padding: 20px 50px 20px 50px;
+    overflow: hidden;
 } 
 #introdivision
 {
@@ -118,43 +118,41 @@ h4
 #classtenth
 {
     background-color: whitesmoke;
-    width: 25%;
+    width: 14%;
     height: 18%;
-    display: block;
+    display: table-cell;
     padding: 20px;
     border-style: outset;
     border-width: 5px;
     border-color: black;
     border-radius: 10%;
-    float: left;
     background-image: url(school.png);
 }
 #classtwelfth
 {
     background-color: whitesmoke;
-    width: 25%;
+    width: 14%;
     height: 18%;
-    display: inline-block;
     padding: 20px;
+    display: table-cell;
     border-style: outset;
     border-width: 5px;
     border-color: black;
     border-radius: 10%;
-    margin:0% 6%;
+    margin:0% 20%;
     background-image: url(Highschool.png);
 } 
 #graduation
 {
     background-color: whitesmoke;
-    width: 25%;
+    width: 14%;
     height: 18%;
-    display: block;
     padding: 20px;
+    display: table-cell;
     border-style: outset;
     border-width: 5px;
     border-color: black;
     border-radius: 10%;
-    float: right;
     background-image: url(college.png);
 }
 #headingtwo
@@ -177,7 +175,7 @@ h4
 .thirddivision
 {
     background-color: #80BDAB;
-    height: 670px;
+    height: auto;
     padding: 20px 50px 20px 50px;
     text-align: center;
 }
@@ -185,57 +183,61 @@ h4
 {
     margin: 2%;
 }
+#almadiv
+{
+    display: table;
+    width: 100%; 
+}
 #allicons
 {
     display: block;
-    width: 80%;
+    width: 100%;
     margin:auto;
 }
 .fourthdivision
 {
     background-color: #BBF1C8;
-    height: 670px;
+    height: auto;
     padding: 20px 50px 20px 50px;
     text-align: center;
 }
 #newallicons
 {
-    position: absolute;
-    top: 50px;
-    right: 15px;
-    line-height: 2; 
+    float: right;
+    text-align: left;
+    line-height: 2;
+    display: block;
 }
 #contacticon
 {
-    width: 18%;
     position: absolute;
-    left: 25px;
-    top: 25px;
+    width: 12%;
+    left: 145px;
+    top: 2700px;
     opacity: 10%;
 }
 .fifthdivision
 {
     background-color:#0A1D37;
-    position: relative;
-    height: 285px;
+    height: auto;
     width: auto;
     color: #EDD2F3;
+    overflow: hidden;
 }
 #contactheading
 {
     height: auto;
     width: auto;
-    position: absolute;
-    top: 100px;
-    left: 200px;
     font-size: 2em;
+    display: block;
+    margin: 5%;
+    float: left;
 }
 .site-footer
 {
-    position: absolute;
-    bottom: 10px;
-    left: 600px;
+    display: block;
     font-size: 60%;
+    text-align: center;
 }
 #expdetails
 {
