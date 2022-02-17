@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
 }
@@ -241,3 +242,251 @@ h4
     line-height: 2;
     color: #342B38;
 }
+=======
+body {
+    margin: 0;
+}
+.hry
+{
+    border: 6px dotted black;
+    border-bottom: none;
+    width: 5%;
+    margin:40px auto;
+}
+.Icon
+{
+    width: 8%;
+    display: block;
+    margin-top: 2%;
+    border-radius: 50%;
+}
+h4
+{
+    font-family: 'pacifico', cursive;
+}
+.OtherIcons
+{
+    width: 5%;
+    margin: 0% 2%;
+    display: inline-block;
+}
+.firstdivision
+{
+    background-color: #FF9595;
+    height: 660px;
+    width: auto;
+    line-height: 2;
+}
+#sun_image
+{
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+#Sumen_Heading
+{
+    margin: auto;
+    color: #342B38;
+    display: block;
+    width: 200px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+#myname
+{
+    width: 300px;
+    margin: auto;
+    color: #342B38;
+    display: block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+#Sumen_Applications
+{
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    opacity: 5%;
+}
+#Designation
+{
+    width: 200px;
+    display: block;
+    color: #342B38;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    text-align: center;
+}
+#Sumen_Mountains
+{
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    opacity: 10%;
+}
+.seconddivision
+{
+    background-color: #342B38;
+    height: auto;
+    padding: 20px 50px 20px 50px;
+    overflow: hidden;
+} 
+#introdivision
+{
+    width: 90%;
+    display: block;
+    align-self: center;
+    margin-left: 10%;
+    padding: 1%;
+}
+#introduction
+{
+    width: 80%;
+    color:aliceblue;
+    display: block;
+    margin: 0;
+    line-height: 2;
+}
+#sumenphoto
+{
+    width: 12%;
+    display: block;
+    left: 10%;
+    float: left;
+    margin: 2%;
+}  
+
+#classtenth
+{
+    background-color: whitesmoke;
+    width: 14%;
+    height: 18%;
+    display: table-cell;
+    padding: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    background-image: url(school.png);
+}
+#classtwelfth
+{
+    background-color: whitesmoke;
+    width: 14%;
+    height: 18%;
+    padding: 20px;
+    display: table-cell;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    margin:0% 20%;
+    background-image: url(Highschool.png);
+} 
+#graduation
+{
+    background-color: whitesmoke;
+    width: 14%;
+    height: 18%;
+    padding: 20px;
+    display: table-cell;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    background-image: url(college.png);
+}
+#headingtwo
+{
+    font-family: 'pacifico', cursive;
+    color: #EDD2F3;
+    position: absolute;
+    left: 625px;
+    top: 700px;
+}
+#almamaterphoto
+{
+    size: 110%;
+    position: absolute;
+    top: 710px;
+    left: 100px;
+    opacity: 20%;
+}
+
+.thirddivision
+{
+    background-color: #80BDAB;
+    height: auto;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+#skillsicon
+{
+    margin: 2%;
+}
+#almadiv
+{
+    display: table;
+    width: 100%; 
+}
+#allicons
+{
+    display: block;
+    width: 100%;
+    margin:auto;
+}
+.fourthdivision
+{
+    background-color: #BBF1C8;
+    height: auto;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+#newallicons
+{
+    float: right;
+    text-align: left;
+    line-height: 2;
+    display: block;
+}
+#contacticon
+{
+    position: absolute;
+    width: 12%;
+    left: 145px;
+    top: 2700px;
+    opacity: 10%;
+}
+.fifthdivision
+{
+    background-color:#0A1D37;
+    height: auto;
+    width: auto;
+    color: #EDD2F3;
+    overflow: hidden;
+}
+#contactheading
+{
+    height: auto;
+    width: auto;
+    font-size: 2em;
+    display: block;
+    margin: 5%;
+    float: left;
+}
+.site-footer
+{
+    display: block;
+    font-size: 60%;
+    text-align: center;
+}
+#expdetails
+{
+    line-height: 2;
+    color: #342B38;
+}
+>>>>>>> 06a68e7f81393cb9213f810fbc8c466528eef53f
