@@ -118,10 +118,9 @@ h4
 #classtenth
 {
     background-color: whitesmoke;
-    width: 14%;
-    height: 18%;
+    height: 10%;
     display: table-cell;
-    padding: 20px;
+    padding: 5%;
     border-style: outset;
     border-width: 5px;
     border-color: black;
@@ -131,9 +130,8 @@ h4
 #classtwelfth
 {
     background-color: whitesmoke;
-    width: 14%;
-    height: 18%;
-    padding: 20px;
+    height: 10%;
+    padding: 5%;
     display: table-cell;
     border-style: outset;
     border-width: 5px;
@@ -145,9 +143,8 @@ h4
 #graduation
 {
     background-color: whitesmoke;
-    width: 14%;
-    height: 18%;
-    padding: 20px;
+    height: 10%;
+    padding: 5%;
     display: table-cell;
     border-style: outset;
     border-width: 5px;
@@ -165,7 +162,7 @@ h4
 }
 #almamaterphoto
 {
-    size: 110%;
+    width: 50%;
     position: absolute;
     top: 710px;
     left: 100px;
@@ -186,7 +183,6 @@ h4
 #almadiv
 {
     display: table;
-    width: 100%; 
 }
 #allicons
 {
@@ -220,6 +216,7 @@ h4
 {
     background-color:#0A1D37;
     height: auto;
+    padding: 5%;
     width: auto;
     color: #EDD2F3;
     overflow: hidden;
