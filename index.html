@@ -1,21 +1,58 @@
-<<<<<<< HEAD:SumenResumeNew.html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sumen's Resume</title>
         <link rel="stylesheet" href="SumenResume.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap"
             rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 
     <body>
-        <div class="firstdivision">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="a" style="color: aliceblue;">
+                    <img src="Resume_logo.png" alt="No Image Available" width="5%">
+                    Sumen Kumar Dubey - Resume
+                </a>
+                <button class="btn btn-secondary navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#colNav" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="colNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seconddivisionA">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seconddivisionB">Alma Mater</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#thirddivision">Skills & Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fourthdivision">Languages & Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fifthdivision">Contact Details</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        </div>
+        <div id="firstdivision">
+            <br><br>
             <img src="Sun_Image.png" alt="No Image available" id=sun_image>
             <h1 id=Sumen_Heading>Namaste,</h1>
             <h1 id="myname">I'm Sumen</h1><br><br><br>
@@ -23,8 +60,9 @@
             <h2 id="Designation">A Software Engineer</h2>
             <img src="Mountainy.png" alt="No image avasilable" id="Sumen_Mountains">
         </div>
-        <div class="seconddivision">
-            <div id="introdivision">
+        <div id="seconddivision">
+            <div id="seconddivisionA">
+                <br><br> <br>
                 <img src="Sumen Photo-modified.png" alt="Image Not Available" id="sumenphoto">
                 <p id="introduction">
                     "<span><strong> Hello, </strong></span> I am an Engineering Graduate in the field of Information
@@ -37,29 +75,33 @@
                 </p>
             </div>
             <hr class="hry">
-            <center><img src="almaicon.png" alt="No Image Available" class="Icon"><br>
-                <h4>Alma Mater</h4>
-            </center>
-            <img src="almamaterphoto.png" alt="no image available" id="almamaterphoto">
-            <div id="almadiv">
-            <div id="classtenth">
-                <h3>Kendriya Vidyalaya No.1 Pathankot</h3>
-                <h5>10th</h5>
-                <h5>9.2 CGPA</h5>
-            </div>
-            <div id="classtwelfth">
-                <h3>Kendriya Vidyalaya No.2 Patna</h3>
-                <h5>12th</h5>
-                <h5>84.4%</h5>
-            </div>
-            <div id="graduation">
-                <h3>Haldia Institute of Technology, Haldia</h3>
-                <h5>B.Tech(IT)</h5>
-                <h5>7.85 DGPA</h5>
+            <div id="seconddivisionB">
+                <br><br>
+                <center><img src="almaicon.png" alt="No Image Available" class="Icon"><br>
+                    <h4>Alma Mater</h4>
+                </center>
+                <img src="almamaterphoto.png" alt="no image available" id="almamaterphoto">
+                <div id="almadiv">
+                    <div id="classtenth">
+                        <h3>Kendriya Vidyalaya No.1 Pathankot</h3>
+                        <h5>10th</h5>
+                        <h5>9.2 CGPA</h5>
+                    </div>
+                    <div id="classtwelfth">
+                        <h3>Kendriya Vidyalaya No.2 Patna</h3>
+                        <h5>12th</h5>
+                        <h5>84.4%</h5>
+                    </div>
+                    <div id="graduation">
+                        <h3>Haldia Institute of Technology, Haldia</h3>
+                        <h5>B.Tech(IT)</h5>
+                        <h5>7.85 DGPA</h5>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="thirddivision">
+        <div id="thirddivision">
+            <br><br>
             <center><img src="skills.png" alt="No Image Available" class="Icon"><br>
                 <h4>Skills</h4>
             </center>
@@ -80,11 +122,13 @@
                     <h4>Experience</h4>
                 </center><br>
                 <center>
-                    <p id="expdetails"> Worked in MetricStream India Pvt. Ltd. as Quality Assurance Engineer for 1 year.</p>
+                    <p id="expdetails"> Worked in MetricStream India Pvt. Ltd. as Quality Assurance Engineer for 1 year.
+                    </p>
                 </center>
             </div>
         </div>
-        <div class="fourthdivision">
+        <div id="fourthdivision">
+            <br><br>
             <center><img src="language.png" alt="No image Available" class="Icon"><br>
                 <h4>Languages Known</h4>
             </center>
@@ -103,7 +147,7 @@
                 <img src="cooking.png" alt="No image Available" class="OtherIcons" title="Cooking">
             </div>
         </div>
-        <div class="fifthdivision">
+        <div id="fifthdivision">
             <img src="contacts.png" alt="No image available" id="contacticon">
             <h2 id="contactheading">Contact me at:</h2>
             <div id="newallicons">
@@ -115,137 +159,23 @@
                         alt="No Image Available" title="LinkedIn"></a>
                 <a href="https://github.com/MeyankDwivedi" target="_blank"><img src="githuub.png"
                         alt="No Image Available" title="GitHub"></a>
-            </div><br><br><br><br><br><br><br><br><br><br><br>
+            </div><br><br><br>
             <div class="site-footer">
                 ©2022 Sumen Kumar Dubey. All rights reserved.
             </div>
         </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     </body>
 
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sumen's Resume</title>
-        <link rel="stylesheet" href="SumenResume.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap"
-            rel="stylesheet">
-    </head>
-
-    <body>
-        <div class="firstdivision">
-            <img src="Sun_Image.png" alt="No Image available" id=sun_image>
-            <h1 id=Sumen_Heading>Namaste,</h1>
-            <h1 id="myname">I'm Sumen</h1><br><br><br>
-            <img src="Applicatons.png" alt="No Image Available" id="Sumen_Applications">
-            <h2 id="Designation">A Software Engineer</h2>
-            <img src="Mountainy.png" alt="No image avasilable" id="Sumen_Mountains">
-        </div>
-        <div class="seconddivision">
-            <div id="introdivision">
-                <img src="Sumen Photo-modified.png" alt="Image Not Available" id="sumenphoto">
-                <p id="introduction">
-                    "<span><strong> Hello, </strong></span> I am an Engineering Graduate in the field of Information
-                    Technology of year 2019. I have
-                    worked in a product based company for one year as a Quality Assurance Engineer. There I had gained
-                    the
-                    knowledge in Manual as well as Automation Testing. I had even worked as a Support Engineer during
-                    the particular tenure. Currently, I am searching for Job Domains where my coding skills can also be
-                    applied as I have gained Knowledge in various other Technologies too."
-                </p>
-            </div>
-            <hr class="hry">
-            <center><img src="almaicon.png" alt="No Image Available" class="Icon"><br>
-                <h4>Alma Mater</h4>
-            </center>
-            <img src="almamaterphoto.png" alt="no image available" id="almamaterphoto">
-            <div id="almadiv">
-            <div id="classtenth">
-                <h3>Kendriya Vidyalaya No.1 Pathankot</h3>
-                <h5>10th</h5>
-                <h5>9.2 CGPA</h5>
-            </div>
-            <div id="classtwelfth">
-                <h3>Kendriya Vidyalaya No.2 Patna</h3>
-                <h5>12th</h5>
-                <h5>84.4%</h5>
-            </div>
-            <div id="graduation">
-                <h3>Haldia Institute of Technology, Haldia</h3>
-                <h5>B.Tech(IT)</h5>
-                <h5>7.85 DGPA</h5>
-            </div>
-        </div>
-        </div>
-        <div class="thirddivision">
-            <center><img src="skills.png" alt="No Image Available" class="Icon"><br>
-                <h4>Skills</h4>
-            </center>
-            <div id="allicons">
-                <img src="c.png" alt="No Image Available" class="OtherIcons" title="C">
-                <img src="c (1).png" alt="No Image Available" class="OtherIcons" title="C++">
-                <img src="java.png" alt="No Image Available" class="OtherIcons" title="Java">
-                <img src="database.png" alt="No Image Available" class="OtherIcons" title="Oracle 11g">
-                <img src="html5.png" alt="No Image Available" class="OtherIcons" title="HTML 5">
-                <img src="css3.png" alt="No Image Available" class="OtherIcons" title="CSS 3">
-                <img src="python.png" alt="No Image Available" class="OtherIcons" title="Python">
-                <img src="java-script.png" alt="No Image Available" class="OtherIcons" title="Javascript">
-                <img src="agile.png" alt="No image Available" class="OtherIcons" title="Agile Testing">
-            </div>
-            <hr class="hry">
-            <div id="">
-                <center><img src="employee-experience.png" alt="No Image Available" class="Icon"><br>
-                    <h4>Experience</h4>
-                </center><br>
-                <center>
-                    <p id="expdetails"> Worked in MetricStream India Pvt. Ltd. as Quality Assurance Engineer for 1 year.</p>
-                </center>
-            </div>
-        </div>
-        <div class="fourthdivision">
-            <center><img src="language.png" alt="No image Available" class="Icon"><br>
-                <h4>Languages Known</h4>
-            </center>
-            <div>
-                <img src="hindi-letter.png" alt="No image Available" class="OtherIcons" title="Hindi">
-                <img src="english-letter-a.png" alt="No image Available" class="OtherIcons" title="English">
-            </div>
-            <hr class="hry">
-            <div>
-                <center><img src="happy.png" alt="No image Available" class="Icon"><br>
-                    <h4>Hobbies</h4>
-                </center>
-                <img src="painting.png" alt="No image Available" class="OtherIcons" title="Painting">
-                <img src="travel.png" alt="No image Available" class="OtherIcons" title="Travelling">
-                <img src="internet.png" alt="No image Available" class="OtherIcons" title="Internet Surfing">
-                <img src="cooking.png" alt="No image Available" class="OtherIcons" title="Cooking">
-            </div>
-        </div>
-        <div class="fifthdivision">
-            <img src="contacts.png" alt="No image available" id="contacticon">
-            <h2 id="contactheading">Contact me at:</h2>
-            <div id="newallicons">
-                <img src="mobile.png" alt="No Image Available"> : +91-7979927735 <br>
-                <img src="mail.png" alt="No Image Available"> : sumenkumard@gmail.com <br>
-                <img src="address.png" alt="No Image Available"> : C/O Satyendra Kumar Dubey, House No. 101,
-                Siddheswarnagar, Patna. Pin - 800001<br><br>
-                <a href="https://linkedin.com/in/sumen-kumar-dubey-467b85156" target="_blank"><img src="linkedin.png"
-                        alt="No Image Available" title="LinkedIn"></a>
-                <a href="https://github.com/MeyankDwivedi" target="_blank"><img src="githuub.png"
-                        alt="No Image Available" title="GitHub"></a>
-            </div><br><br><br><br><br><br><br><br><br><br><br>
-            <div class="site-footer">
-                ©2022 Sumen Kumar Dubey. All rights reserved.
-            </div>
-        </div>
-    </body>
-
-</html>
->>>>>>> 06a68e7f81393cb9213f810fbc8c466528eef53f:index.html
